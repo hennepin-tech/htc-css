@@ -1,0 +1,27 @@
+{
+  "name": "ignite-css",
+  "version": "0.0.1",
+  "description": "SCSS/ CSS implementation of the Design System for Hennepin Technical College",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hennepin-tech/ignite-css.git"
+  },
+  "author": "Jacob Stordahl",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/hennepin-tech/ignite-css/issues"
+  },
+  "homepage": "https://github.com/hennepin-tech/ignite-css#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "sassdoc": "^2.7.3"
+  }
+}
