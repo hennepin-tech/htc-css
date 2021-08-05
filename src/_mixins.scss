@@ -1,0 +1,61 @@
+////
+/// @group Source
+////
+
+/// applies a fade animation to an element
+/// @name Fade
+/// @param {string} $fade [fadeIn] - the keyframe animation to use
+/// @param {string} $timing [ease] - the name of a timing function eg. ease, ease-in, etc
+/// @param {string} $length [5s] - CSS time value in seconds that sets the length of the animation 
+/// @param {string} $delay [1s] - CSS time value in seconds that sets the animation delay
+/// @param {number} $count [1] - number of times to run the fade animation
+/// @param {string} $fill [forward] - sets the animation-fill-mode eg. 
+
+@mixin fade(
+  $fade: fadeIn, 
+  $timing: ease, 
+  $length: 5s, 
+  $delay: 1s, 
+  $count: 1, 
+  $fill: forward){ 
+    animation: $fade $timing $length;
+    animation-delay: $delay;
+    animation-iteration-count: $count; 
+    animation-fill-mode: $fill; 
+} 
+  @keyframes fadeIn { 
+    0% { opacity: 0; } 
+    100% { opacity: 1; } 
+  } 
+  @keyframes fadeOut { 
+    0% { opacity: 1; } 
+    100% { opacity: 0; } 
+  }
+
+/// creates a flex container and orients its contents
+/// @name Flex
+/// @param {string} $direction [row] - the flex direction of the flex container
+/// @param {string} $justify [center] - sets the justify-content rule of the flex container
+/// @param {string} $align [center] - sets the align-content rule of the flex container
+
+@mixin flex ($direction: row, $justify: center, $align: center){
+  display:flex;
+  flex-direction:$direction;
+  justify-content:$justify;
+  align-items:$align;
+}
+
+/// sets all font properties on an element
+/// @name Font
+/// @param {string} $style [normal] - Sets the font style
+/// @param {number} $weight [300] - Sets the font weight
+/// @param {number} $height [1] - Sets the line height
+/// @param {number} $spacing [inherit] - Sets the letter spacing
+
+@mixin font($style: normal, $weight: 300, $height: 1, $spacing: inherit){
+  font-family: 'Jost', sans-serif;
+  font-style: $style;
+  font-weight: $weight;
+  line-height: $height;
+  letter-spacing: $spacing;
+}
