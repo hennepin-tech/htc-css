@@ -1,9 +1,5 @@
 /// This is a description for the button
-
-:root {
-  --black: #000000;
-  --yellow: yellow;
-}
+/// @name Button
 
 button, .btn {
   background-color: var(--yellow);
