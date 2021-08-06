@@ -43,4 +43,15 @@ Clone the repo, cd into it and run
 npm i
 ```
 
+To build the source into Vanilla CSS and/ or generate the documentation for the source SCSS, run
+
+```shell
+npm run compile
+```
+
+To generate the documentation for the Vanilla CSS Library, run
+
+```shell
+npm run generate
+```
 
