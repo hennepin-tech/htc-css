@@ -1,0 +1,36 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*---
+title:   Button
+section: Elements
+---
+
+Button styles can be applied to any element. Typically you'll want to use
+either a `<button>` or an `<a>` element:
+
+<button class="btn">Click</button>
+
+```html
+<button class="btn">Click</button>
+<a class="btn" href="/some-page">Some Page</a>
+```
+*/
+.btn {
+  background-color: #F26522;
+  color: #000000;
+  margin: 2rem auto;
+}
