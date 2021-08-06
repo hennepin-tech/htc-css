@@ -1,0 +1,48 @@
+// Ignite Design System SCSS Source - Variables
+
+////
+/// @group Source
+////
+
+//----------------------//
+// COLORS
+//----------------------//
+
+/// Black Color
+/// @name Black
+/// @type string
+$black: #000000;
+
+/// White Color
+/// @name White
+/// @type string
+$white: #FFFFFF;
+
+/// Orange Color
+/// @name Orange
+/// @type string
+$orange: #F26522;
+
+/// Grey Color
+/// @name Grey
+/// @type string
+$grey: #464646;
+
+/// Gray Color - fallback variable for spelling diff
+/// @name Gray
+/// @type string
+$gray: #464646;
+
+//----------------------//
+// BOX ELEMENT PROPS
+//----------------------//
+
+/// Border - Standard border value for all elements
+/// @name Border
+/// @type string
+$border: 5px 5px 15px #0000003f;
+
+/// Radius - Standard border radius value for all elements
+/// @name Radius
+/// @type string
+$radius: 5px;

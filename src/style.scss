@@ -1,8 +1,15 @@
+// Ignite Design System SCSS Root
+
 // Source Group
+// Documented with SassDoc syntax
 @use 'functions';
 @use 'mixins';
-@use 'root';
+@use 'variables';
 
-// Utility Group
-@use 'components/button';
 
+// Utility Classes
+// Documented with MDCSS syntax
+@use 'util';
+
+  //Component Specific Classes
+  @use 'components/button';
