@@ -1,6 +1,20 @@
-# ignite-css
+# htc-css
 
 SCSS/ CSS Implementation of the Ignite Design System for Hennepin Technical College
+
+## Usage
+
+The CSS Library is available via jsDelivr 
+
+```
+https://cdn.jsdelivr.net/gh/hennepin-tech/htc-css/dist/style.css
+```
+
+To Embed the Library into your HTML, use this markup
+
+```html
+<link src="https://cdn.jsdelivr.net/gh/hennepin-tech/htc-css/dist/style.css" rel="stylesheet" />
+```
 
 ## Guidelines
 
